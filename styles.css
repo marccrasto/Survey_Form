@@ -1,0 +1,121 @@
+body {
+  width: 100%;
+  margin: 0;
+  font-family: Poppins;
+  background-image: linear-gradient( rgba(20, 20, 180, 0.75), rgba(120, 120, 220, 0.45)), url(https://www.teachhub.com/wp-content/uploads/2020/09/Sept-9-Benefits-of-Group-Work_web-1024x682.jpg);
+  color: white;
+  background-size: cover;
+}
+
+h1 {
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 1.5em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 2em;
+  font-size: 1.1em;
+  font-weight: 250;
+}
+
+h1, p {
+  text-align: center;
+}
+
+form {
+  width: 65%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: rgba(10,0,50, 0.82);
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  font-size: 1.1em;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  height: 2.5em;
+  border: none;
+  margin-top: 0.7em;
+  margin-bottom: 1.5em;
+  font-size: 0.8em;
+  font-family: Poppins;
+}
+
+select{
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  height: 2.5em;
+  border: none;
+  margin-top: 0.7em;
+  margin-bottom: 1em;
+  font-size: 0.8em;
+  font-family: Poppins;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.8em;
+  font-family: Poppins;
+}
+
+fieldset{
+  font-size: 1.1em;
+  border: none;
+}
+
+legend {
+  font-size: 1.1em;
+}
+
+.inline {
+  margin-right: 0.7em;
+  height: 1.5em;
+  width: 1.5em;
+  vertical-align: top;
+}
+
+fieldset:first-of-type {
+  margin-bottom: -0.4em;
+}
+
+fieldset:last-of-type {
+  margin-top: 1.3em;
+}
+
+input[type="submit"] {
+  padding: 1em;
+  border-radius: 2px;
+  border: none;
+  font-family: Poppins;
+  width: 96%;
+  font-size: 1em;
+  color: white;
+  background: linear-gradient( rgb(40, 120, 40), rgba(80, 220, 80));
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.special {
+  margin-top: 1em;
+}
+
+.center-button {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.3em;
+  margin-bottom: 2em;
+}
